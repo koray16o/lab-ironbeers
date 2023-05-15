@@ -1,7 +1,27 @@
-/*
-white: #f7f9f9;
-light-blue: #2081c3;
-dark-blue: #0a2c42;
-grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
-*/
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background-color: #2081c3;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+footer {
+  background-color: #0a2c42;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.index-beer {
+  width: 300px;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+}
